@@ -1,0 +1,83 @@
+.app {
+  width: 500px;
+  height: 350px;
+  margin-left: 27%;
+  margin-top: 10%;
+  text-align: center;
+  background: #8E24AA;
+  background: linear-gradient(45deg,  #5b7bc0 0%,#538aa5 50%,#788db372 100%);
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-top: 2px solid blueviolet;
+ border-left: 2px solid blueviolet;
+ border-bottom: 2px solid rgb(238, 103, 238);
+ border-right: 2px solid rgb(238, 103, 238);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  /* transition-duration: 1s;
+  transition-property:border; */
+   
+}
+.box{
+width: 100%;
+ height: 100vh;
+ padding: 2%;
+ background: rgb(43, 41, 41);
+}
+
+.time {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.button {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  border-style: groove;
+}
+
+.button-primary{
+  
+  width: 100px;
+  height: 60px;
+}
+.button-secondary{
+  width: 100px;
+  height: 60px;
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.button:focus {
+  outline-width: 0;
+}
+
+.button-secondary:hover{
+  background-color: #ce93f5;
+  border: 2px solid #000000;
+}
+
+.button-primary:hover {
+  background-color: #ce93f5;
+  /* border: 2px solid #000000; */
+}
+
+.button-primary-active {
+  background-color: #4e505b;
+  border: 1px solid #454752;
+  color: white;
+}
+
+.button-primary-inactive {
+  background-color: #9b67ad;
+  border: 1px solid #342338;
+  color: white;
+}
